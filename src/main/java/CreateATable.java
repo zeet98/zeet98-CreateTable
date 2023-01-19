@@ -61,8 +61,12 @@ public class CreateATable {
      *     |'Let it be'        |'Beatles'              |
      *     |'Hotel California' |'Eagles'               |
      *     |'Kashmir'          |'Led Zeppelin'         |
+     *
+     *     Do not change anything in this code. You should write your sql statement on a single line in the
+     *     problem1.sql file.
      */
     public void problem1(){
+//        write your SQL logic in a single line in the problem1.sql file.
         String sql = FileUtil.parseSQLFile("problem1.sql");
 
         try {
